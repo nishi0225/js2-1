@@ -36,11 +36,11 @@ const calc = (fizNum,buzNum) => {
   }else {
     for (let i = 1; i < 100; i++) {
       if (i % fizNum === 0 && i % buzNum === 0) {
-        showText(`FizzBuzz${i}`);
+        showText(`FizzBuzz ${i}`);
       } else if (i % fizNum === 0) {
-        showText(`Fizz${i}`);
+        showText(`Fizz ${i}`);
       } else if (i % buzNum === 0) {
-        showText(`Buzz${i}`);
+        showText(`Buzz ${i}`);
       }
     }
   }
